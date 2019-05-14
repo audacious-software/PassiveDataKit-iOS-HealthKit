@@ -1,0 +1,4 @@
+framework module PDKHealthKit {
+    umbrella header "PDKHealthKit-Shared.h"
+}
+
