@@ -587,4 +587,14 @@ static PDKAppleHealthKitGenerator * sharedObject = nil;
     return NSLocalizedStringFromTableInBundle(@"name_generator_health_kit", @"PassiveDataKit", [NSBundle bundleForClass:self.class], nil);
 }
 
+- (void) requestRequiredPermissions:(void (^)(void))callback {
+    if ([self isAuthenticated] == NO) {
+        [self authenticate:^{
+            callback();
+        } failure:^{
+            callback();
+        }];
+    }
+}
+
 @end

@@ -20,5 +20,6 @@ extern NSString * const PDKAppleHealthStepsEnabled;
 - (void) authenticate:(void (^)(void))success failure:(void (^)(void))failure;
 
 + (UIColor *) dataColor;
+- (void) requestRequiredPermissions:(void (^)(void))callback;
 
 @end
