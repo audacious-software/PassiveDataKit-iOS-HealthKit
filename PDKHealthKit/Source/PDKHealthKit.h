@@ -18,7 +18,7 @@ FOUNDATION_EXPORT const unsigned char PDKHealthKitVersionString[];
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PDKHealthHit : NSObject
+@interface PDKHealthKit : NSObject
 
 @end
 

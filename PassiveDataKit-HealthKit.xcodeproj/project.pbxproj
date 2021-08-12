@@ -3,18 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38BC12B92252A1A5008FE251 /* PDKHealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BC12AF2252A1A5008FE251 /* PDKHealthKit.framework */; };
+		20931B059F21140DF3A277D8 /* Pods_PassiveDataKit_HealthKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943221E421E4E319B74CA0A5 /* Pods_PassiveDataKit_HealthKitTests.framework */; };
+		388C925E26546A7C00D8BDA3 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388C925D26546A7C00D8BDA3 /* HealthKit.framework */; };
+		38BC12B92252A1A5008FE251 /* PassiveDataKit_HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BC12AF2252A1A5008FE251 /* PassiveDataKit_HealthKit.framework */; };
 		38BC12BE2252A1A5008FE251 /* PDKHealthKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BC12BD2252A1A5008FE251 /* PDKHealthKitTests.m */; };
-		38BC12D92252A2CE008FE251 /* PassiveDataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BC12D82252A2CE008FE251 /* PassiveDataKit.framework */; };
 		38BC12F22252A345008FE251 /* PDKAppleHealthKitGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BC12F02252A345008FE251 /* PDKAppleHealthKitGenerator.m */; };
 		38BC12F32252A345008FE251 /* PDKAppleHealthKitGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BC12F12252A345008FE251 /* PDKAppleHealthKitGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38BC12FA2252A4D1008FE251 /* PDKHealthHit.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BC12F82252A4D1008FE251 /* PDKHealthHit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38BC12FB2252A4D1008FE251 /* PDKHealthHit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BC12F92252A4D1008FE251 /* PDKHealthHit.m */; };
-		38BC13122252BB21008FE251 /* PDKHealthKit-Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BC12FD2252A5ED008FE251 /* PDKHealthKit-Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38BC12FA2252A4D1008FE251 /* PDKHealthKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BC12F82252A4D1008FE251 /* PDKHealthKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38BC12FB2252A4D1008FE251 /* PDKHealthKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BC12F92252A4D1008FE251 /* PDKHealthKit.m */; };
+		38BC13122252BB21008FE251 /* PassiveDataKit-HealthKit-Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BC12FD2252A5ED008FE251 /* PassiveDataKit-HealthKit-Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C924F3A56272BC1A83FA94B4 /* Pods_PassiveDataKit_HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E60C169F2B7288672025F14 /* Pods_PassiveDataKit_HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +30,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		38BC12AF2252A1A5008FE251 /* PDKHealthKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PDKHealthKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEE90B373747BCF233CF4E2 /* Pods-PassiveDataKit-HealthKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-HealthKit.release.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-HealthKit/Pods-PassiveDataKit-HealthKit.release.xcconfig"; sourceTree = "<group>"; };
+		388C925D26546A7C00D8BDA3 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/iOSSupport/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		38BC12AF2252A1A5008FE251 /* PassiveDataKit_HealthKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PassiveDataKit_HealthKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BC12B32252A1A5008FE251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38BC12B82252A1A5008FE251 /* PDKHealthKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDKHealthKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BC12B82252A1A5008FE251 /* PassiveDataKit-HealthKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PassiveDataKit-HealthKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BC12BD2252A1A5008FE251 /* PDKHealthKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKHealthKitTests.m; sourceTree = "<group>"; };
 		38BC12BF2252A1A5008FE251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38BC12D82252A2CE008FE251 /* PassiveDataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PassiveDataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BC12F02252A345008FE251 /* PDKAppleHealthKitGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKAppleHealthKitGenerator.m; path = Source/Generators/PDKAppleHealthKitGenerator.m; sourceTree = "<group>"; };
 		38BC12F12252A345008FE251 /* PDKAppleHealthKitGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKAppleHealthKitGenerator.h; path = Source/Generators/PDKAppleHealthKitGenerator.h; sourceTree = "<group>"; };
-		38BC12F82252A4D1008FE251 /* PDKHealthHit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PDKHealthHit.h; path = Source/PDKHealthHit.h; sourceTree = "<group>"; };
-		38BC12F92252A4D1008FE251 /* PDKHealthHit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PDKHealthHit.m; path = Source/PDKHealthHit.m; sourceTree = "<group>"; };
-		38BC12FC2252A5D1008FE251 /* PDKHealthKit.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = PDKHealthKit.modulemap; sourceTree = "<group>"; };
-		38BC12FD2252A5ED008FE251 /* PDKHealthKit-Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDKHealthKit-Shared.h"; sourceTree = "<group>"; };
+		38BC12F82252A4D1008FE251 /* PDKHealthKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PDKHealthKit.h; path = Source/PDKHealthKit.h; sourceTree = "<group>"; };
+		38BC12F92252A4D1008FE251 /* PDKHealthKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PDKHealthKit.m; path = Source/PDKHealthKit.m; sourceTree = "<group>"; };
+		38BC12FC2252A5D1008FE251 /* PassiveDataKit-HealthKit.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "PassiveDataKit-HealthKit.modulemap"; sourceTree = "<group>"; };
+		38BC12FD2252A5ED008FE251 /* PassiveDataKit-HealthKit-Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PassiveDataKit-HealthKit-Shared.h"; sourceTree = "<group>"; };
+		3D7145A268FF2FDDDE55BD98 /* Pods-PassiveDataKit-HealthKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-HealthKitTests.release.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-HealthKitTests/Pods-PassiveDataKit-HealthKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F712477B7103EB5471CF004 /* Pods-PassiveDataKit-HealthKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-HealthKit.debug.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-HealthKit/Pods-PassiveDataKit-HealthKit.debug.xcconfig"; sourceTree = "<group>"; };
+		8E60C169F2B7288672025F14 /* Pods_PassiveDataKit_HealthKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassiveDataKit_HealthKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		943221E421E4E319B74CA0A5 /* Pods_PassiveDataKit_HealthKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassiveDataKit_HealthKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB8B2FFDC84ED5E9E8EC654 /* Pods-PassiveDataKit-HealthKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-HealthKitTests.debug.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-HealthKitTests/Pods-PassiveDataKit-HealthKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38BC12D92252A2CE008FE251 /* PassiveDataKit.framework in Frameworks */,
+				C924F3A56272BC1A83FA94B4 /* Pods_PassiveDataKit_HealthKit.framework in Frameworks */,
+				388C925E26546A7C00D8BDA3 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38BC12B92252A1A5008FE251 /* PDKHealthKit.framework in Frameworks */,
+				38BC12B92252A1A5008FE251 /* PassiveDataKit_HealthKit.framework in Frameworks */,
+				20931B059F21140DF3A277D8 /* Pods_PassiveDataKit_HealthKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,14 +79,15 @@
 				38BC12BC2252A1A5008FE251 /* PDKHealthKitTests */,
 				38BC12B02252A1A5008FE251 /* Products */,
 				38BC12D72252A2CE008FE251 /* Frameworks */,
+				88C2EF517D7233EE00DF52D1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		38BC12B02252A1A5008FE251 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				38BC12AF2252A1A5008FE251 /* PDKHealthKit.framework */,
-				38BC12B82252A1A5008FE251 /* PDKHealthKitTests.xctest */,
+				38BC12AF2252A1A5008FE251 /* PassiveDataKit_HealthKit.framework */,
+				38BC12B82252A1A5008FE251 /* PassiveDataKit-HealthKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,10 +97,10 @@
 			children = (
 				38BC12D62252A2B4008FE251 /* Generators */,
 				38BC12B32252A1A5008FE251 /* Info.plist */,
-				38BC12F82252A4D1008FE251 /* PDKHealthHit.h */,
-				38BC12F92252A4D1008FE251 /* PDKHealthHit.m */,
-				38BC12FC2252A5D1008FE251 /* PDKHealthKit.modulemap */,
-				38BC12FD2252A5ED008FE251 /* PDKHealthKit-Shared.h */,
+				38BC12F82252A4D1008FE251 /* PDKHealthKit.h */,
+				38BC12F92252A4D1008FE251 /* PDKHealthKit.m */,
+				38BC12FC2252A5D1008FE251 /* PassiveDataKit-HealthKit.modulemap */,
+				38BC12FD2252A5ED008FE251 /* PassiveDataKit-HealthKit-Shared.h */,
 			);
 			path = PDKHealthKit;
 			sourceTree = "<group>";
@@ -115,9 +126,22 @@
 		38BC12D72252A2CE008FE251 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				38BC12D82252A2CE008FE251 /* PassiveDataKit.framework */,
+				388C925D26546A7C00D8BDA3 /* HealthKit.framework */,
+				8E60C169F2B7288672025F14 /* Pods_PassiveDataKit_HealthKit.framework */,
+				943221E421E4E319B74CA0A5 /* Pods_PassiveDataKit_HealthKitTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88C2EF517D7233EE00DF52D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F712477B7103EB5471CF004 /* Pods-PassiveDataKit-HealthKit.debug.xcconfig */,
+				0BEE90B373747BCF233CF4E2 /* Pods-PassiveDataKit-HealthKit.release.xcconfig */,
+				ACB8B2FFDC84ED5E9E8EC654 /* Pods-PassiveDataKit-HealthKitTests.debug.xcconfig */,
+				3D7145A268FF2FDDDE55BD98 /* Pods-PassiveDataKit-HealthKitTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,19 +151,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38BC12FA2252A4D1008FE251 /* PDKHealthHit.h in Headers */,
+				38BC12FA2252A4D1008FE251 /* PDKHealthKit.h in Headers */,
 				38BC12F32252A345008FE251 /* PDKAppleHealthKitGenerator.h in Headers */,
-				38BC13122252BB21008FE251 /* PDKHealthKit-Shared.h in Headers */,
+				38BC13122252BB21008FE251 /* PassiveDataKit-HealthKit-Shared.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		38BC12AE2252A1A5008FE251 /* PDKHealthKit */ = {
+		38BC12AE2252A1A5008FE251 /* PassiveDataKit-HealthKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38BC12C32252A1A5008FE251 /* Build configuration list for PBXNativeTarget "PDKHealthKit" */;
+			buildConfigurationList = 38BC12C32252A1A5008FE251 /* Build configuration list for PBXNativeTarget "PassiveDataKit-HealthKit" */;
 			buildPhases = (
+				8BD21BE6BE47019C0FBEAB49 /* [CP] Check Pods Manifest.lock */,
 				38BC12AA2252A1A5008FE251 /* Headers */,
 				38BC12AB2252A1A5008FE251 /* Sources */,
 				38BC12AC2252A1A5008FE251 /* Frameworks */,
@@ -149,27 +174,29 @@
 			);
 			dependencies = (
 			);
-			name = PDKHealthKit;
+			name = "PassiveDataKit-HealthKit";
 			productName = "PassiveDataKit-iOS-HealthKit";
-			productReference = 38BC12AF2252A1A5008FE251 /* PDKHealthKit.framework */;
+			productReference = 38BC12AF2252A1A5008FE251 /* PassiveDataKit_HealthKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		38BC12B72252A1A5008FE251 /* PDKHealthKitTests */ = {
+		38BC12B72252A1A5008FE251 /* PassiveDataKit-HealthKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38BC12C62252A1A5008FE251 /* Build configuration list for PBXNativeTarget "PDKHealthKitTests" */;
+			buildConfigurationList = 38BC12C62252A1A5008FE251 /* Build configuration list for PBXNativeTarget "PassiveDataKit-HealthKitTests" */;
 			buildPhases = (
+				C0BED9E12AF972CD80F978D6 /* [CP] Check Pods Manifest.lock */,
 				38BC12B42252A1A5008FE251 /* Sources */,
 				38BC12B52252A1A5008FE251 /* Frameworks */,
 				38BC12B62252A1A5008FE251 /* Resources */,
+				ED4CAEED18EAE81CC62D7F71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				38BC12BB2252A1A5008FE251 /* PBXTargetDependency */,
 			);
-			name = PDKHealthKitTests;
+			name = "PassiveDataKit-HealthKitTests";
 			productName = "PassiveDataKit-iOS-HealthKitTests";
-			productReference = 38BC12B82252A1A5008FE251 /* PDKHealthKitTests.xctest */;
+			productReference = 38BC12B82252A1A5008FE251 /* PassiveDataKit-HealthKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +205,7 @@
 		38BC12A62252A1A5008FE251 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "Audacious Software";
 				TargetAttributes = {
 					38BC12AE2252A1A5008FE251 = {
@@ -189,20 +216,21 @@
 					};
 				};
 			};
-			buildConfigurationList = 38BC12A92252A1A5008FE251 /* Build configuration list for PBXProject "PDKHealthKit" */;
+			buildConfigurationList = 38BC12A92252A1A5008FE251 /* Build configuration list for PBXProject "PassiveDataKit-HealthKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 38BC12A52252A1A5008FE251;
 			productRefGroup = 38BC12B02252A1A5008FE251 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				38BC12AE2252A1A5008FE251 /* PDKHealthKit */,
-				38BC12B72252A1A5008FE251 /* PDKHealthKitTests */,
+				38BC12AE2252A1A5008FE251 /* PassiveDataKit-HealthKit */,
+				38BC12B72252A1A5008FE251 /* PassiveDataKit-HealthKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,13 +252,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8BD21BE6BE47019C0FBEAB49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassiveDataKit-HealthKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BED9E12AF972CD80F978D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassiveDataKit-HealthKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED4CAEED18EAE81CC62D7F71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassiveDataKit-HealthKitTests/Pods-PassiveDataKit-HealthKitTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassiveDataKit-HealthKitTests/Pods-PassiveDataKit-HealthKitTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PassiveDataKit-HealthKitTests/Pods-PassiveDataKit-HealthKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38BC12AB2252A1A5008FE251 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				38BC12F22252A345008FE251 /* PDKAppleHealthKitGenerator.m in Sources */,
-				38BC12FB2252A4D1008FE251 /* PDKHealthHit.m in Sources */,
+				38BC12FB2252A4D1008FE251 /* PDKHealthKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +339,7 @@
 /* Begin PBXTargetDependency section */
 		38BC12BB2252A1A5008FE251 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 38BC12AE2252A1A5008FE251 /* PDKHealthKit */;
+			target = 38BC12AE2252A1A5008FE251 /* PassiveDataKit-HealthKit */;
 			targetProxy = 38BC12BA2252A1A5008FE251 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -279,6 +371,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -305,11 +398,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -341,6 +435,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -361,10 +456,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -373,6 +469,7 @@
 		};
 		38BC12C42252A1A5008FE251 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F712477B7103EB5471CF004 /* Pods-PassiveDataKit-HealthKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -383,13 +480,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/PDKHealthKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = PDKHealthKit/PDKHealthKit.modulemap;
+				MODULEMAP_FILE = "PDKHealthKit/PassiveDataKit-HealthKit.modulemap";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.audacious-software.PassiveDataKit.HealthKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -400,6 +497,7 @@
 		};
 		38BC12C52252A1A5008FE251 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BEE90B373747BCF233CF4E2 /* Pods-PassiveDataKit-HealthKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -410,13 +508,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/PDKHealthKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = PDKHealthKit/PDKHealthKit.modulemap;
+				MODULEMAP_FILE = "PDKHealthKit/PassiveDataKit-HealthKit.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.audacious-software.PassiveDataKit.HealthKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -426,6 +524,7 @@
 		};
 		38BC12C72252A1A5008FE251 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB8B2FFDC84ED5E9E8EC654 /* Pods-PassiveDataKit-HealthKitTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V664K3X7J4;
@@ -443,6 +542,7 @@
 		};
 		38BC12C82252A1A5008FE251 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7145A268FF2FDDDE55BD98 /* Pods-PassiveDataKit-HealthKitTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V664K3X7J4;
@@ -461,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38BC12A92252A1A5008FE251 /* Build configuration list for PBXProject "PDKHealthKit" */ = {
+		38BC12A92252A1A5008FE251 /* Build configuration list for PBXProject "PassiveDataKit-HealthKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38BC12C12252A1A5008FE251 /* Debug */,
@@ -470,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38BC12C32252A1A5008FE251 /* Build configuration list for PBXNativeTarget "PDKHealthKit" */ = {
+		38BC12C32252A1A5008FE251 /* Build configuration list for PBXNativeTarget "PassiveDataKit-HealthKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38BC12C42252A1A5008FE251 /* Debug */,
@@ -479,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38BC12C62252A1A5008FE251 /* Build configuration list for PBXNativeTarget "PDKHealthKitTests" */ = {
+		38BC12C62252A1A5008FE251 /* Build configuration list for PBXNativeTarget "PassiveDataKit-HealthKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38BC12C72252A1A5008FE251 /* Debug */,

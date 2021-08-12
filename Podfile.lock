@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - DTMHeatmap (1.0)
+  - PassiveDataKit (0.0.1):
+    - AFNetworking (~> 4.0)
+    - AppAuth (~> 1.4.0)
+    - Charts (~> 3.6.0)
+    - DTMHeatmap
+
+DEPENDENCIES:
+  - PassiveDataKit (from `https://github.com/audacious-software/PassiveDataKit-iOS.git`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - AppAuth
+    - Charts
+    - DTMHeatmap
+
+EXTERNAL SOURCES:
+  PassiveDataKit:
+    :git: https://github.com/audacious-software/PassiveDataKit-iOS.git
+
+CHECKOUT OPTIONS:
+  PassiveDataKit:
+    :commit: f1a0c1078836c29fcaaae83d50d19ddc3d48baeb
+    :git: https://github.com/audacious-software/PassiveDataKit-iOS.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  DTMHeatmap: f5588af0730fbfe78c75d6d013f1932d7d327ab2
+  PassiveDataKit: 7efb3d6957dbf4e20c646e060e0ebc4f897d9f7a
+
+PODFILE CHECKSUM: 61821d834d631c45b93fa1847d4c8d66dfa342b8
+
+COCOAPODS: 1.10.1
