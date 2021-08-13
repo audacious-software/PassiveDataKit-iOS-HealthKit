@@ -1,18 +1,18 @@
 //
-//  PDKHealthKitTests.m
-//  PDKHealthKitTests
+//  PassiveDataKit_iOS_HealthKitTests.m
+//  PassiveDataKit-iOS-HealthKitTests
 //
-//  Created by Chris Karr on 4/1/19.
-//  Copyright © 2019 Audacious Software. All rights reserved.
+//  Created by Chris Karr on 8/12/21.
+//  Copyright © 2021 Audacious Software. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface PDKHealthKitTests : XCTestCase
+@interface PassiveDataKit_iOS_HealthKitTests : XCTestCase
 
 @end
 
-@implementation PDKHealthKitTests
+@implementation PassiveDataKit_iOS_HealthKitTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

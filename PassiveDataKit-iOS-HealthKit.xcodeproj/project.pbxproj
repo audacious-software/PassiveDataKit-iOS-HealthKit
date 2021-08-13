@@ -3,40 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D5E9A713907071F9DC857E6 /* Pods_Test_Dummy_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7172EAC6FC84E7D8099E1CD7 /* Pods_Test_Dummy_App.framework */; };
+		380D3E7126C5FF5A009A1776 /* PassiveDataKit_iOS_HealthKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 380D3E7026C5FF5A009A1776 /* PassiveDataKit_iOS_HealthKitTests.m */; };
+		380D3E7326C5FF5A009A1776 /* PassiveDataKit_iOS_HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BC12AF2252A1A5008FE251 /* PassiveDataKit_iOS_HealthKit.framework */; };
+		380D3E8126C601A3009A1776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 380D3E8026C601A3009A1776 /* AppDelegate.m */; };
+		380D3E8426C601A4009A1776 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 380D3E8326C601A4009A1776 /* SceneDelegate.m */; };
+		380D3E8726C601A4009A1776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 380D3E8626C601A4009A1776 /* ViewController.m */; };
+		380D3E8A26C601A4009A1776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380D3E8826C601A4009A1776 /* Main.storyboard */; };
+		380D3E8C26C601A7009A1776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380D3E8B26C601A7009A1776 /* Assets.xcassets */; };
+		380D3E8F26C601A7009A1776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380D3E8D26C601A7009A1776 /* LaunchScreen.storyboard */; };
+		380D3E9226C601A7009A1776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 380D3E9126C601A7009A1776 /* main.m */; };
 		388C925E26546A7C00D8BDA3 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388C925D26546A7C00D8BDA3 /* HealthKit.framework */; };
-		38BC12B92252A1A5008FE251 /* PassiveDataKit_iOS_HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BC12AF2252A1A5008FE251 /* PassiveDataKit_iOS_HealthKit.framework */; };
-		38BC12BE2252A1A5008FE251 /* PDKHealthKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BC12BD2252A1A5008FE251 /* PDKHealthKitTests.m */; };
 		38BC12F22252A345008FE251 /* PDKAppleHealthKitGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BC12F02252A345008FE251 /* PDKAppleHealthKitGenerator.m */; };
 		38BC12F32252A345008FE251 /* PDKAppleHealthKitGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BC12F12252A345008FE251 /* PDKAppleHealthKitGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38BC12FA2252A4D1008FE251 /* PDKHealthKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BC12F82252A4D1008FE251 /* PDKHealthKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38BC12FB2252A4D1008FE251 /* PDKHealthKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BC12F92252A4D1008FE251 /* PDKHealthKit.m */; };
 		38BC13122252BB21008FE251 /* PassiveDataKit-iOS-HealthKit-Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BC12FD2252A5ED008FE251 /* PassiveDataKit-iOS-HealthKit-Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58B8F81ADC77AAFF0EAACE8A /* Pods_PassiveDataKit_iOS_HealthKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E65877CA445D31B0F691C1A /* Pods_PassiveDataKit_iOS_HealthKitTests.framework */; };
 		6E4DEA89C3231DC2CEE9D02B /* Pods_PassiveDataKit_iOS_HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0C0FC60B9A5DA77A438F58 /* Pods_PassiveDataKit_iOS_HealthKit.framework */; };
+		74072A6F69E6342C59D49C1B /* Pods_PassiveDataKit_iOS_HealthKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E65877CA445D31B0F691C1A /* Pods_PassiveDataKit_iOS_HealthKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		38BC12BA2252A1A5008FE251 /* PBXContainerItemProxy */ = {
+		380D3E7426C5FF5A009A1776 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38BC12A62252A1A5008FE251 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 38BC12AE2252A1A5008FE251;
 			remoteInfo = "PassiveDataKit-iOS-HealthKit";
 		};
+		380D3E9626C601AD009A1776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38BC12A62252A1A5008FE251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 380D3E7C26C601A3009A1776;
+			remoteInfo = "Test Dummy App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006F961359D51CD252872CD1 /* Pods-Test Dummy App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Dummy App.debug.xcconfig"; path = "Target Support Files/Pods-Test Dummy App/Pods-Test Dummy App.debug.xcconfig"; sourceTree = "<group>"; };
 		0BEE90B373747BCF233CF4E2 /* Pods-PassiveDataKit-HealthKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-HealthKit.release.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-HealthKit/Pods-PassiveDataKit-HealthKit.release.xcconfig"; sourceTree = "<group>"; };
+		380D3E6E26C5FF5A009A1776 /* PassiveDataKit-iOS-HealthKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PassiveDataKit-iOS-HealthKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		380D3E7026C5FF5A009A1776 /* PassiveDataKit_iOS_HealthKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassiveDataKit_iOS_HealthKitTests.m; sourceTree = "<group>"; };
+		380D3E7226C5FF5A009A1776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380D3E7D26C601A3009A1776 /* Test Dummy App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Dummy App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		380D3E7F26C601A3009A1776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		380D3E8026C601A3009A1776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		380D3E8226C601A3009A1776 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		380D3E8326C601A4009A1776 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		380D3E8526C601A4009A1776 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		380D3E8626C601A4009A1776 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		380D3E8926C601A4009A1776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		380D3E8B26C601A7009A1776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		380D3E8E26C601A7009A1776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		380D3E9026C601A7009A1776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380D3E9126C601A7009A1776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		388C925D26546A7C00D8BDA3 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/iOSSupport/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		38BC12AF2252A1A5008FE251 /* PassiveDataKit_iOS_HealthKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PassiveDataKit_iOS_HealthKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BC12B32252A1A5008FE251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38BC12B82252A1A5008FE251 /* PassiveDataKit-iOS-HealthKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PassiveDataKit-iOS-HealthKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38BC12BD2252A1A5008FE251 /* PDKHealthKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKHealthKitTests.m; sourceTree = "<group>"; };
-		38BC12BF2252A1A5008FE251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38BC12F02252A345008FE251 /* PDKAppleHealthKitGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKAppleHealthKitGenerator.m; path = Source/Generators/PDKAppleHealthKitGenerator.m; sourceTree = "<group>"; };
 		38BC12F12252A345008FE251 /* PDKAppleHealthKitGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKAppleHealthKitGenerator.h; path = Source/Generators/PDKAppleHealthKitGenerator.h; sourceTree = "<group>"; };
 		38BC12F82252A4D1008FE251 /* PDKHealthKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PDKHealthKit.h; path = Source/PDKHealthKit.h; sourceTree = "<group>"; };
@@ -45,16 +73,35 @@
 		38BC12FD2252A5ED008FE251 /* PassiveDataKit-iOS-HealthKit-Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PassiveDataKit-iOS-HealthKit-Shared.h"; sourceTree = "<group>"; };
 		3D7145A268FF2FDDDE55BD98 /* Pods-PassiveDataKit-HealthKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-HealthKitTests.release.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-HealthKitTests/Pods-PassiveDataKit-HealthKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		3F712477B7103EB5471CF004 /* Pods-PassiveDataKit-HealthKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-HealthKit.debug.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-HealthKit/Pods-PassiveDataKit-HealthKit.debug.xcconfig"; sourceTree = "<group>"; };
+		7172EAC6FC84E7D8099E1CD7 /* Pods_Test_Dummy_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Dummy_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8B95A9D6A904906ECDCC5B /* Pods-PassiveDataKit-iOS-HealthKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-iOS-HealthKit.debug.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-iOS-HealthKit/Pods-PassiveDataKit-iOS-HealthKit.debug.xcconfig"; sourceTree = "<group>"; };
 		8E65877CA445D31B0F691C1A /* Pods_PassiveDataKit_iOS_HealthKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassiveDataKit_iOS_HealthKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAC804DBB3715C21A06B604 /* Pods-PassiveDataKit-iOS-HealthKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-iOS-HealthKit.release.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-iOS-HealthKit/Pods-PassiveDataKit-iOS-HealthKit.release.xcconfig"; sourceTree = "<group>"; };
 		ACB8B2FFDC84ED5E9E8EC654 /* Pods-PassiveDataKit-HealthKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-HealthKitTests.debug.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-HealthKitTests/Pods-PassiveDataKit-HealthKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE0C0FC60B9A5DA77A438F58 /* Pods_PassiveDataKit_iOS_HealthKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassiveDataKit_iOS_HealthKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DA31FAA98B1E462724DFFF /* Pods-Test Dummy App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Dummy App.release.xcconfig"; path = "Target Support Files/Pods-Test Dummy App/Pods-Test Dummy App.release.xcconfig"; sourceTree = "<group>"; };
 		DBBA6DC25FC2992912D3A241 /* Pods-PassiveDataKit-iOS-HealthKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-iOS-HealthKitTests.debug.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-iOS-HealthKitTests/Pods-PassiveDataKit-iOS-HealthKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E940DAEA8FA8E5B7BF65D294 /* Pods-PassiveDataKit-iOS-HealthKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveDataKit-iOS-HealthKitTests.release.xcconfig"; path = "Target Support Files/Pods-PassiveDataKit-iOS-HealthKitTests/Pods-PassiveDataKit-iOS-HealthKitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		380D3E6B26C5FF5A009A1776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380D3E7326C5FF5A009A1776 /* PassiveDataKit_iOS_HealthKit.framework in Frameworks */,
+				74072A6F69E6342C59D49C1B /* Pods_PassiveDataKit_iOS_HealthKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380D3E7A26C601A3009A1776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5E9A713907071F9DC857E6 /* Pods_Test_Dummy_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38BC12AC2252A1A5008FE251 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,23 +111,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38BC12B52252A1A5008FE251 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38BC12B92252A1A5008FE251 /* PassiveDataKit_iOS_HealthKit.framework in Frameworks */,
-				58B8F81ADC77AAFF0EAACE8A /* Pods_PassiveDataKit_iOS_HealthKitTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		380D3E6F26C5FF5A009A1776 /* PassiveDataKit-iOS-HealthKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				380D3E7026C5FF5A009A1776 /* PassiveDataKit_iOS_HealthKitTests.m */,
+				380D3E7226C5FF5A009A1776 /* Info.plist */,
+			);
+			path = "PassiveDataKit-iOS-HealthKitTests";
+			sourceTree = "<group>";
+		};
+		380D3E7E26C601A3009A1776 /* Test Dummy App */ = {
+			isa = PBXGroup;
+			children = (
+				380D3E7F26C601A3009A1776 /* AppDelegate.h */,
+				380D3E8026C601A3009A1776 /* AppDelegate.m */,
+				380D3E8226C601A3009A1776 /* SceneDelegate.h */,
+				380D3E8326C601A4009A1776 /* SceneDelegate.m */,
+				380D3E8526C601A4009A1776 /* ViewController.h */,
+				380D3E8626C601A4009A1776 /* ViewController.m */,
+				380D3E8826C601A4009A1776 /* Main.storyboard */,
+				380D3E8B26C601A7009A1776 /* Assets.xcassets */,
+				380D3E8D26C601A7009A1776 /* LaunchScreen.storyboard */,
+				380D3E9026C601A7009A1776 /* Info.plist */,
+				380D3E9126C601A7009A1776 /* main.m */,
+			);
+			path = "Test Dummy App";
+			sourceTree = "<group>";
+		};
 		38BC12A52252A1A5008FE251 = {
 			isa = PBXGroup;
 			children = (
 				38BC12B12252A1A5008FE251 /* PDKHealthKit */,
-				38BC12BC2252A1A5008FE251 /* PDKHealthKitTests */,
+				380D3E6F26C5FF5A009A1776 /* PassiveDataKit-iOS-HealthKitTests */,
+				380D3E7E26C601A3009A1776 /* Test Dummy App */,
 				38BC12B02252A1A5008FE251 /* Products */,
 				38BC12D72252A2CE008FE251 /* Frameworks */,
 				88C2EF517D7233EE00DF52D1 /* Pods */,
@@ -91,7 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				38BC12AF2252A1A5008FE251 /* PassiveDataKit_iOS_HealthKit.framework */,
-				38BC12B82252A1A5008FE251 /* PassiveDataKit-iOS-HealthKitTests.xctest */,
+				380D3E6E26C5FF5A009A1776 /* PassiveDataKit-iOS-HealthKitTests.xctest */,
+				380D3E7D26C601A3009A1776 /* Test Dummy App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,15 +176,6 @@
 			path = PDKHealthKit;
 			sourceTree = "<group>";
 		};
-		38BC12BC2252A1A5008FE251 /* PDKHealthKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				38BC12BD2252A1A5008FE251 /* PDKHealthKitTests.m */,
-				38BC12BF2252A1A5008FE251 /* Info.plist */,
-			);
-			path = PDKHealthKitTests;
-			sourceTree = "<group>";
-		};
 		38BC12D62252A2B4008FE251 /* Generators */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +191,7 @@
 				388C925D26546A7C00D8BDA3 /* HealthKit.framework */,
 				AE0C0FC60B9A5DA77A438F58 /* Pods_PassiveDataKit_iOS_HealthKit.framework */,
 				8E65877CA445D31B0F691C1A /* Pods_PassiveDataKit_iOS_HealthKitTests.framework */,
+				7172EAC6FC84E7D8099E1CD7 /* Pods_Test_Dummy_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +207,8 @@
 				9BAC804DBB3715C21A06B604 /* Pods-PassiveDataKit-iOS-HealthKit.release.xcconfig */,
 				DBBA6DC25FC2992912D3A241 /* Pods-PassiveDataKit-iOS-HealthKitTests.debug.xcconfig */,
 				E940DAEA8FA8E5B7BF65D294 /* Pods-PassiveDataKit-iOS-HealthKitTests.release.xcconfig */,
+				006F961359D51CD252872CD1 /* Pods-Test Dummy App.debug.xcconfig */,
+				C1DA31FAA98B1E462724DFFF /* Pods-Test Dummy App.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -168,6 +229,46 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		380D3E6D26C5FF5A009A1776 /* PassiveDataKit-iOS-HealthKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380D3E7626C5FF5A009A1776 /* Build configuration list for PBXNativeTarget "PassiveDataKit-iOS-HealthKitTests" */;
+			buildPhases = (
+				D6082D0CD6CE81595E4BC991 /* [CP] Check Pods Manifest.lock */,
+				380D3E6A26C5FF5A009A1776 /* Sources */,
+				380D3E6B26C5FF5A009A1776 /* Frameworks */,
+				380D3E6C26C5FF5A009A1776 /* Resources */,
+				366BF6001B3250A73ABA8AC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				380D3E7526C5FF5A009A1776 /* PBXTargetDependency */,
+				380D3E9726C601AD009A1776 /* PBXTargetDependency */,
+			);
+			name = "PassiveDataKit-iOS-HealthKitTests";
+			productName = "PassiveDataKit-iOS-HealthKitTests";
+			productReference = 380D3E6E26C5FF5A009A1776 /* PassiveDataKit-iOS-HealthKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		380D3E7C26C601A3009A1776 /* Test Dummy App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380D3E9326C601A7009A1776 /* Build configuration list for PBXNativeTarget "Test Dummy App" */;
+			buildPhases = (
+				5D49998D5247B4ABE26A6910 /* [CP] Check Pods Manifest.lock */,
+				380D3E7926C601A3009A1776 /* Sources */,
+				380D3E7A26C601A3009A1776 /* Frameworks */,
+				380D3E7B26C601A3009A1776 /* Resources */,
+				40427E30D68BFA7B690858EF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Dummy App";
+			productName = "Test Dummy App";
+			productReference = 380D3E7D26C601A3009A1776 /* Test Dummy App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		38BC12AE2252A1A5008FE251 /* PassiveDataKit-iOS-HealthKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38BC12C32252A1A5008FE251 /* Build configuration list for PBXNativeTarget "PassiveDataKit-iOS-HealthKit" */;
@@ -187,26 +288,6 @@
 			productReference = 38BC12AF2252A1A5008FE251 /* PassiveDataKit_iOS_HealthKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		38BC12B72252A1A5008FE251 /* PassiveDataKit-iOS-HealthKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38BC12C62252A1A5008FE251 /* Build configuration list for PBXNativeTarget "PassiveDataKit-iOS-HealthKitTests" */;
-			buildPhases = (
-				C0BED9E12AF972CD80F978D6 /* [CP] Check Pods Manifest.lock */,
-				38BC12B42252A1A5008FE251 /* Sources */,
-				38BC12B52252A1A5008FE251 /* Frameworks */,
-				38BC12B62252A1A5008FE251 /* Resources */,
-				ED4CAEED18EAE81CC62D7F71 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				38BC12BB2252A1A5008FE251 /* PBXTargetDependency */,
-			);
-			name = "PassiveDataKit-iOS-HealthKitTests";
-			productName = "PassiveDataKit-iOS-HealthKitTests";
-			productReference = 38BC12B82252A1A5008FE251 /* PassiveDataKit-iOS-HealthKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,10 +297,14 @@
 				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "Audacious Software";
 				TargetAttributes = {
-					38BC12AE2252A1A5008FE251 = {
-						CreatedOnToolsVersion = 10.2;
+					380D3E6D26C5FF5A009A1776 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 380D3E7C26C601A3009A1776;
 					};
-					38BC12B72252A1A5008FE251 = {
+					380D3E7C26C601A3009A1776 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					38BC12AE2252A1A5008FE251 = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
@@ -238,20 +323,31 @@
 			projectRoot = "";
 			targets = (
 				38BC12AE2252A1A5008FE251 /* PassiveDataKit-iOS-HealthKit */,
-				38BC12B72252A1A5008FE251 /* PassiveDataKit-iOS-HealthKitTests */,
+				380D3E6D26C5FF5A009A1776 /* PassiveDataKit-iOS-HealthKitTests */,
+				380D3E7C26C601A3009A1776 /* Test Dummy App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		38BC12AD2252A1A5008FE251 /* Resources */ = {
+		380D3E6C26C5FF5A009A1776 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38BC12B62252A1A5008FE251 /* Resources */ = {
+		380D3E7B26C601A3009A1776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380D3E8F26C601A7009A1776 /* LaunchScreen.storyboard in Resources */,
+				380D3E8C26C601A7009A1776 /* Assets.xcassets in Resources */,
+				380D3E8A26C601A4009A1776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BC12AD2252A1A5008FE251 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,6 +357,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		366BF6001B3250A73ABA8AC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassiveDataKit-iOS-HealthKitTests/Pods-PassiveDataKit-iOS-HealthKitTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassiveDataKit-iOS-HealthKitTests/Pods-PassiveDataKit-iOS-HealthKitTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PassiveDataKit-iOS-HealthKitTests/Pods-PassiveDataKit-iOS-HealthKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40427E30D68BFA7B690858EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Dummy App/Pods-Test Dummy App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Dummy App/Pods-Test Dummy App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test Dummy App/Pods-Test Dummy App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D49998D5247B4ABE26A6910 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Dummy App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8BD21BE6BE47019C0FBEAB49 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,7 +435,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C0BED9E12AF972CD80F978D6 /* [CP] Check Pods Manifest.lock */ = {
+		D6082D0CD6CE81595E4BC991 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,26 +457,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ED4CAEED18EAE81CC62D7F71 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PassiveDataKit-iOS-HealthKitTests/Pods-PassiveDataKit-iOS-HealthKitTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PassiveDataKit-iOS-HealthKitTests/Pods-PassiveDataKit-iOS-HealthKitTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PassiveDataKit-iOS-HealthKitTests/Pods-PassiveDataKit-iOS-HealthKitTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		380D3E6A26C5FF5A009A1776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380D3E7126C5FF5A009A1776 /* PassiveDataKit_iOS_HealthKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380D3E7926C601A3009A1776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380D3E8726C601A4009A1776 /* ViewController.m in Sources */,
+				380D3E8126C601A3009A1776 /* AppDelegate.m in Sources */,
+				380D3E9226C601A7009A1776 /* main.m in Sources */,
+				380D3E8426C601A4009A1776 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38BC12AB2252A1A5008FE251 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,25 +488,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38BC12B42252A1A5008FE251 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38BC12BE2252A1A5008FE251 /* PDKHealthKitTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		38BC12BB2252A1A5008FE251 /* PBXTargetDependency */ = {
+		380D3E7526C5FF5A009A1776 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 38BC12AE2252A1A5008FE251 /* PassiveDataKit-iOS-HealthKit */;
-			targetProxy = 38BC12BA2252A1A5008FE251 /* PBXContainerItemProxy */;
+			targetProxy = 380D3E7426C5FF5A009A1776 /* PBXContainerItemProxy */;
+		};
+		380D3E9726C601AD009A1776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 380D3E7C26C601A3009A1776 /* Test Dummy App */;
+			targetProxy = 380D3E9626C601AD009A1776 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		380D3E8826C601A4009A1776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380D3E8926C601A4009A1776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		380D3E8D26C601A7009A1776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380D3E8E26C601A7009A1776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		380D3E7726C5FF5A009A1776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBA6DC25FC2992912D3A241 /* Pods-PassiveDataKit-iOS-HealthKitTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V664K3X7J4;
+				INFOPLIST_FILE = "PassiveDataKit-iOS-HealthKitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audacious-software.PassiveDataKit-iOS-HealthKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Dummy App.app/Test Dummy App";
+			};
+			name = Debug;
+		};
+		380D3E7826C5FF5A009A1776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E940DAEA8FA8E5B7BF65D294 /* Pods-PassiveDataKit-iOS-HealthKitTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V664K3X7J4;
+				INFOPLIST_FILE = "PassiveDataKit-iOS-HealthKitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audacious-software.PassiveDataKit-iOS-HealthKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Dummy App.app/Test Dummy App";
+			};
+			name = Release;
+		};
+		380D3E9426C601A7009A1776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 006F961359D51CD252872CD1 /* Pods-Test Dummy App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V664K3X7J4;
+				INFOPLIST_FILE = "Test Dummy App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audacious-software.Test-Dummy-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		380D3E9526C601A7009A1776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DA31FAA98B1E462724DFFF /* Pods-Test Dummy App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V664K3X7J4;
+				INFOPLIST_FILE = "Test Dummy App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audacious-software.Test-Dummy-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		38BC12C12252A1A5008FE251 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -495,7 +747,7 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "PDKHealthKit/PassiveDataKit-iOS-HealthKit.modulemap";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.audacious-software.PassiveDataKit.HealthKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -523,6 +775,7 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "PDKHealthKit/PassiveDataKit-iOS-HealthKit.modulemap";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.audacious-software.PassiveDataKit.HealthKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -530,45 +783,27 @@
 			};
 			name = Release;
 		};
-		38BC12C72252A1A5008FE251 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBBA6DC25FC2992912D3A241 /* Pods-PassiveDataKit-iOS-HealthKitTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V664K3X7J4;
-				INFOPLIST_FILE = "PassiveDataKit-iOS-HealthKitTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.audacious-software.PassiveDataKit-iOS-HealthKitTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		38BC12C82252A1A5008FE251 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E940DAEA8FA8E5B7BF65D294 /* Pods-PassiveDataKit-iOS-HealthKitTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V664K3X7J4;
-				INFOPLIST_FILE = "PassiveDataKit-iOS-HealthKitTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.audacious-software.PassiveDataKit-iOS-HealthKitTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		380D3E7626C5FF5A009A1776 /* Build configuration list for PBXNativeTarget "PassiveDataKit-iOS-HealthKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380D3E7726C5FF5A009A1776 /* Debug */,
+				380D3E7826C5FF5A009A1776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380D3E9326C601A7009A1776 /* Build configuration list for PBXNativeTarget "Test Dummy App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380D3E9426C601A7009A1776 /* Debug */,
+				380D3E9526C601A7009A1776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		38BC12A92252A1A5008FE251 /* Build configuration list for PBXProject "PassiveDataKit-iOS-HealthKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -583,15 +818,6 @@
 			buildConfigurations = (
 				38BC12C42252A1A5008FE251 /* Debug */,
 				38BC12C52252A1A5008FE251 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38BC12C62252A1A5008FE251 /* Build configuration list for PBXNativeTarget "PassiveDataKit-iOS-HealthKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38BC12C72252A1A5008FE251 /* Debug */,
-				38BC12C82252A1A5008FE251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
