@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:PassiveDataKit-HealthKit.xcodeproj">
+      location = "group:/Users/cjkarr/Documents/Projects/Diamante-iOS/DIAMANTE/Third Party/PassiveDataKit-iOS-HealthKit/PassiveDataKit-iOS-HealthKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

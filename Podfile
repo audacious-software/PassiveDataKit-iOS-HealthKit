@@ -6,12 +6,12 @@ def required_pods
 end
 
 
-target 'PassiveDataKit-HealthKit' do
+target 'PassiveDataKit-iOS-HealthKit' do
   use_frameworks!
   
   required_pods
 
-  target 'PassiveDataKit-HealthKitTests' do
+  target 'PassiveDataKit-iOS-HealthKitTests' do
     inherit! :search_paths
     use_frameworks!
     

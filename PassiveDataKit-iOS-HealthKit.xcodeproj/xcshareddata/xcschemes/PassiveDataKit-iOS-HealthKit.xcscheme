@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "38BC12AE2252A1A5008FE251"
-               BuildableName = "PassiveDataKit_HealthKit.framework"
-               BlueprintName = "PassiveDataKit-HealthKit"
-               ReferencedContainer = "container:PassiveDataKit-HealthKit.xcodeproj">
+               BuildableName = "PassiveDataKit_iOS_HealthKit.framework"
+               BlueprintName = "PassiveDataKit-iOS-HealthKit"
+               ReferencedContainer = "container:PassiveDataKit-iOS-HealthKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "38BC12AE2252A1A5008FE251"
-            BuildableName = "PassiveDataKit_HealthKit.framework"
-            BlueprintName = "PassiveDataKit-HealthKit"
-            ReferencedContainer = "container:PassiveDataKit-HealthKit.xcodeproj">
+            BuildableName = "PassiveDataKit_iOS_HealthKit.framework"
+            BlueprintName = "PassiveDataKit-iOS-HealthKit"
+            ReferencedContainer = "container:PassiveDataKit-iOS-HealthKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -42,9 +42,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "38BC12B72252A1A5008FE251"
-               BuildableName = "PassiveDataKit-HealthKitTests.xctest"
-               BlueprintName = "PassiveDataKit-HealthKitTests"
-               ReferencedContainer = "container:PassiveDataKit-HealthKit.xcodeproj">
+               BuildableName = "PassiveDataKit-iOS-HealthKitTests.xctest"
+               BlueprintName = "PassiveDataKit-iOS-HealthKitTests"
+               ReferencedContainer = "container:PassiveDataKit-iOS-HealthKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -63,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "38BC12AE2252A1A5008FE251"
-            BuildableName = "PassiveDataKit_HealthKit.framework"
-            BlueprintName = "PassiveDataKit-HealthKit"
-            ReferencedContainer = "container:PassiveDataKit-HealthKit.xcodeproj">
+            BuildableName = "PassiveDataKit_iOS_HealthKit.framework"
+            BlueprintName = "PassiveDataKit-iOS-HealthKit"
+            ReferencedContainer = "container:PassiveDataKit-iOS-HealthKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -79,9 +79,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "38BC12AE2252A1A5008FE251"
-            BuildableName = "PassiveDataKit_HealthKit.framework"
-            BlueprintName = "PassiveDataKit-HealthKit"
-            ReferencedContainer = "container:PassiveDataKit-HealthKit.xcodeproj">
+            BuildableName = "PassiveDataKit_iOS_HealthKit.framework"
+            BlueprintName = "PassiveDataKit-iOS-HealthKit"
+            ReferencedContainer = "container:PassiveDataKit-iOS-HealthKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

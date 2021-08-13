@@ -17,9 +17,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "38BC12B72252A1A5008FE251"
-               BuildableName = "PassiveDataKit-HealthKitTests.xctest"
-               BlueprintName = "PassiveDataKit-HealthKitTests"
-               ReferencedContainer = "container:PassiveDataKit-HealthKit.xcodeproj">
+               BuildableName = "PassiveDataKit-iOS-HealthKitTests.xctest"
+               BlueprintName = "PassiveDataKit-iOS-HealthKitTests"
+               ReferencedContainer = "container:PassiveDataKit-iOS-HealthKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
