@@ -41,7 +41,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38BC12B72252A1A5008FE251"
+               BlueprintIdentifier = "380D3E6D26C5FF5A009A1776"
                BuildableName = "PassiveDataKit-iOS-HealthKitTests.xctest"
                BlueprintName = "PassiveDataKit-iOS-HealthKitTests"
                ReferencedContainer = "container:PassiveDataKit-iOS-HealthKit.xcodeproj">
