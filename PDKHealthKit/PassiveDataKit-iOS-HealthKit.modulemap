@@ -1,4 +1,4 @@
 framework module PDKHealthKit {
-    umbrella header "PassiveDataKit-HealthKit-Shared.h"
+    umbrella header "PassiveDataKit-iOS-HealthKit-Shared.h"
 }
 
